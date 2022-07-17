@@ -1,0 +1,56 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: inline-block;
+    height: 300px; width: 500px;
+    padding: 75px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2.5%;
+    background-color: rgb(220, 246, 194);
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.numpad {
+    width: 75%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-rows: 35px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    grid-auto-rows: 35px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    border: solid 2px black;
+    border-radius: 8px;
+}
+
+button {
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 2px;
+    background-color: chartreuse;
+    font-size: 30px;
+    width: 75px;
+    height: 45px;
+}
+
+button:hover {
+    background-color: white;
+}
+
