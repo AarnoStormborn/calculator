@@ -13,7 +13,7 @@ body {
     text-align: center;
     border: 1px solid black;
     border-radius: 2.5%;
-    background-color: rgb(220, 246, 194);
+    background-color: rgb(226, 236, 248);
 }
 
 h1 {
@@ -36,6 +36,7 @@ input {
     width: 300px;
     height: 50px;
     font-size: 30px;
+    text-align: right;
     border: solid 2px black;
     border-radius: 8px;
 }
@@ -44,7 +45,8 @@ button {
     border: 0px;
     border-radius: 5px;
     box-shadow: 2px;
-    background-color: chartreuse;
+    color: rgb(21, 109, 243);
+    background-color: rgb(180, 206, 244);
     font-size: 30px;
     width: 75px;
     height: 45px;
